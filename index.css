@@ -1,0 +1,186 @@
+.container{
+    width: 1000px;
+    height: 1140px;
+    font-size: 13px;
+    font-family: tahoma;
+    margin: 0px auto;
+}
+
+.menutop{
+    background-color: #190041;
+    
+    height: 40px;
+    width: auto;
+}
+.menutop li{
+    list-style-type: none;
+    display: flex;
+    float: left;
+}
+
+.menutop ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menutop li a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    border-right: 1px solid #f1f1f1;
+    padding: 10px 15px 11px 15px;
+    float: left;
+}
+
+.menutop li a:hover{
+    color: white;
+    background-color: #1949b5;
+    font-size: 16px;
+}
+
+.menutop li a:active{
+    color: #1949b5;
+}
+
+.banner{
+    height: 230px;
+    width: 1000px;
+}
+
+.banner img {
+    width: 100%;
+    height: 205px;
+    display: block;
+}
+#id{
+    border-right: 0px;
+}
+
+.detail{
+    width: auto;
+    height: 750px;
+    float: left;
+}
+
+.left{
+    height: auto;
+    width: 270px;
+    float: left;
+}
+
+.lefttop{
+    float: left;
+    border: 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.lefttop img {
+    height: 50px;
+    width: 50px;
+    /* display: block; */
+}
+.danhmuc img{
+    float: left;
+    padding: 5px;
+    width: 50PX;
+    height: 50px;
+}
+
+.danhmuc{
+    width: 270px;
+    height: 40px;
+    background-color: #b20054;
+    float: left;
+    font-size: 14px;
+    color: white;
+}
+
+.danhmuc h2{
+    padding-top: 8px;
+    float: left;
+    margin: 0px;
+}
+
+.lefttop {
+  padding: 0;
+  margin: 0;
+}
+
+.lefttop ul {
+  padding: 0;
+  margin: 0;
+}
+
+.lefttop li {
+  list-style: none;
+  border-bottom: 1px solid gray;
+  padding: 5px 0; /* giảm cách giữa các dòng */
+}
+
+.lefttop li:first-child {
+  margin-top: 0; /* xoá khoảng trắng thừa trên cùng */
+  padding-top: 0;
+}
+
+.lefttop li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 10px;
+  line-height: 1.2;
+}
+
+.lefttop li a img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin: 0; /* đảm bảo ảnh không có khoảng trắng */
+}
+
+.lefttop li a:hover {
+  color: red;
+}
+
+.right{
+    height: auto;
+    width: 700px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 5px;
+}
+
+.rightbox{
+    float: left;
+    margin-bottom: 10px;
+    border-bottom: 1px lightgray solid;
+    padding-bottom: 10px;
+}
+
+.rightbox img{
+    float: left;
+    padding: 5px;
+}
+
+.rightbox h2{
+    padding: 0px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.rightbox p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.footer{
+    width: 940px;
+    float: left;
+    background-color: #190041;
+    color: white;
+    padding: 10px 30px;
+}
